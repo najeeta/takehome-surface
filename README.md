@@ -31,11 +31,13 @@ OPENAI_API_KEY=sk-...
 
 ### 2. Add the handbook PDF
 
-Place the PDF in the `data/` directory:
+The handbook PDF is not included in the repository (it is too large to track in git). You must manually place a copy of `Sample handbook.pdf` in the project root before running `docker compose`:
 
 ```
-data/Sample handbook.pdf
+cp /path/to/Sample\ handbook.pdf .
 ```
+
+The ingestion service expects the file at `./Sample handbook.pdf`.
 
 ### 3. Start the stack
 
