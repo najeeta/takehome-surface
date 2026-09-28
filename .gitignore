@@ -1,0 +1,17 @@
+# Environment
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Node
+node_modules/
+web/build/
+
+# Data
+data/
+
+# OS
+.DS_Store

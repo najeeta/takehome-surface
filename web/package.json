@@ -1,0 +1,29 @@
+{
+  "name": "surface-web",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "react-router dev",
+    "build": "react-router build",
+    "start": "node build/server/index.js"
+  },
+  "dependencies": {
+    "@react-router/node": "^7.6.1",
+    "@react-router/serve": "^7.6.1",
+    "isbot": "^5.1.27",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-markdown": "^10.1.0",
+    "react-router": "^7.6.1",
+    "remark-gfm": "^4.0.1"
+  },
+  "devDependencies": {
+    "@react-router/dev": "^7.6.1",
+    "@tailwindcss/vite": "^4.1.7",
+    "@types/react": "^19.1.4",
+    "@types/react-dom": "^19.1.5",
+    "tailwindcss": "^4.1.7",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.5"
+  }
+}
